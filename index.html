@@ -14,19 +14,45 @@
 
 		body{
 			margin: 0;
+			font-family: Arial, Helvetica, freesans, sans-serif;
 		}
 
-		#top-navbar{
+		#top-bar{
 			background-color: white;
 			height: 40px;
 			width: 100%;
 			border-bottom: 1px solid #CCCCCC;
+			color: black;
 
+		}
+
+		#logo-div{
+			padding: 8px 9px 5px 3px;
+			float: left;
+			border-right: 1px solid #CCCCCC;
+		}
+
+		#signin-div{
+			float: left;
+			padding: 8px 90px 12px 16px;
+			border-right: 1px solid #CCCCCC;
+			font-weight: bold;
+			font-size: 0.8em;
+
+		}
+
+		#topmenu-div{
+			float: left;
+		}
+
+		#signin-div img{
+			position: relative;
+			top: 5px;
 		}
 
 		#more-bar{
 			background-color: white;
-			height: 120px;
+			height: 130px;
 			width: 100%;
 
 		}
@@ -39,11 +65,23 @@
 
 		}
 
-		#lower-navbar{
+		#label-center{
+			background-color: black;
+			height: 55px;
+			width: 1000px;
+			margin: 0 auto;
+		}
+
+		#lower-bar{
 			background-color: #CC0101;
 			height: 35px;
 			width: 100%;
 
+		}
+
+		.fixed-width{
+			width: 1000px;
+			margin: 0 auto;
 		}
 
 	</style>
@@ -52,20 +90,39 @@
 
 <body>
 
-	<div id="top-navbar">
+	<div id="top-bar">
+		<div class="fixed-width">
 
+			<div id="logo-div">
+				<img src="img/bbc-logo.png">
+			</div>
+
+			<div id="signin-div">
+				<img src="img/bbc-signin.png">  Sign in </img>
+			</div>
+
+			<div id="topmenu-div">
+				<ul>
+					<li>News</li>
+				</ul>
+			</div>
+
+		</div>
 	</div>
 
 	<div id="more-bar">
-
+		<div class="fixed-width">
+		</div>
 	</div>
 
 	<div id="label-bar">
-
+		<div class="fixed-width">
+		</div>
 	</div>
 
-	<div id="lower-navbar">
-
+	<div id="lower-bar">
+		<div class="fixed-width">
+		</div>
 	</div>
 
 
