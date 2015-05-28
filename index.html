@@ -99,7 +99,7 @@
 
 		#more-bar{
 			background-color: white;
-			height: 105px;
+			height: 100px;
 			width: 100%;
 
 		}
@@ -161,6 +161,51 @@
 			margin: 0 auto;
 		}
 
+		a{
+			text-decoration: none;
+			color: black;
+		}
+
+		#more-title{
+			font-family: "Gill Sans","Gill Sans MT",Arial,sans-serif;
+			font-size: 1.75em;			
+			font-weight: normal;
+			margin-top: 5px;
+		}
+
+		#news-title{
+			font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
+			font-size: 2.7em;			
+			font-weight: normal;
+			margin-bottom: 20px;
+		}
+
+		#lower-nav{
+			float: left;
+		}
+
+		#lower-nav ul{
+			margin: 0;
+			padding: 0;
+		}
+
+		#lower-nav li{
+			font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
+			float: left;
+			list-style: none;
+			font-size: 14px;
+			color: white;
+			border-right: 1px solid #CCCCCC;
+			margin-top: 10px;
+			padding-right: 10px;
+			padding-left: 10px;
+		}
+
+		#lower-nav li:hover{
+			padding-bottom: 5px;
+			border-bottom: 5px solid white;
+		}
+
 	</style>
 
 </head>
@@ -171,22 +216,22 @@
 		<div class="fixed-width">
 
 			<div id="logo-div">
-				<img src="img/bbc-logo.png">
+				<a href="#"><img src="img/bbc-logo.png"></a>
 			</div>
 
 			<div id="signin-div">
-				<img src="img/bbc-signin.png">  Sign in </img>
+				<a href="#"><img src="img/bbc-signin.png">  Sign in </img></a>
 			</div>
 
 			<div id="topmenu-div">
 				<ul>
-					<li>News</li>
-					<li>Sport</li>
-					<li>Weather</li>
-					<li>Shop</li>
-					<li>Earth</li>
-					<li>Travel</li>
-					<li>More   ^</li>
+					<a href="#"> <li>News</li> </a>
+					<a href="#"><li>Sport</li></a>
+					<a href="#"><li>Weather</li></a>
+					<a href="#"><li>Shop</li></a>
+					<a href="#"><li>Earth</li></a>
+					<a href="#"><li>Travel</li></a>
+					<a href="#"><li>More   ^</li></a>
 				</ul>
 			</div>
 
@@ -201,33 +246,33 @@
 		<div class="fixed-width">
 			<div id="more-menu-div">
 				<div id="more-label">
-					<h3> MORE </h3>
+					<h3 id="more-title"> MORE </h3>
 				</div>
 				<div id="more-list">
 					<ul>
-						<li>Capital</li>
-						<li>Radio</li>
-						<li>iWonder</li>
+						<a href="#"><li>Capital</li></a>
+						<a href="#"><li>Radio</li></a>
+						<a href="#"><li>iWonder</li></a>
 					</ul>
 					<ul>
-						<li>Culture</li>
-						<li>CBBC</li>
-						<li>Bitesize</li>
+						<a href="#"><li>Culture</li></a>
+						<a href="#"><li>CBBC</li></a>
+						<a href="#"><li>Bitesize</li></a>
 					</ul>
 					<ul>
-						<li>Autos</li>
-						<li>CBeebies</li>
-						<li>Music</li>
+						<a href="#"><li>Autos</li></a>
+						<a href="#"><li>CBeebies</li></a>
+						<a href="#"><li>Music</li></a>
 					</ul>
 					<ul>
-						<li>Future</li>
-						<li>WW1</li>
-						<li>Nature</li>
+						<a href="#"><li>Future</li></a>
+						<a href="#"><li>WW1</li></a>
+						<a href="#"><li>Nature</li></a>
 					</ul>
 					<ul>
-						<li>TV</li>
-						<li>Food</li>
-						<li>Local</li>
+						<a href="#"><li>TV</li></a>
+						<a href="#"><li>Food</li></a>
+						<a href="#"><li>Local</li></a>
 					</ul>
 				</div>
 			</div>
@@ -238,16 +283,32 @@
 	<div id="label-bar">
 		<div class="fixed-width">
 			<div id="news-label-div">
-				<h1>NEWS</h1>
+				<h1 id="news-title">NEWS</h1>
 			</div>
 		</div>
 	</div>
 
 	<div id="lower-bar">
 		<div class="fixed-width">
+			<div id="lower-nav">
+				<ul>
+					<a href="#"> <li>Home</li> </a>
+					<a href="#"><li>Video</li></a>
+					<a href="#"><li>World</li></a>
+					<a href="#"><li>US & Canada</li></a>
+					<a href="#"><li>UK</li></a>
+					<a href="#"><li>Business</li></a>
+					<a href="#"><li>Tech</li></a>
+					<a href="#"><li>Science</li></a>
+					<a href="#"><li>Magazine</li></a>
+					<a href="#"><li>Entertainment & Arts</li></a>
+					<a href="#"><li>Health</li></a>
+					<a href="#"><li>More</li></a>
+				</ul>
+
+			</div>
 		</div>
 	</div>
-
 </body>
 
 </html>
