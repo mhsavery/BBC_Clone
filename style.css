@@ -45,10 +45,6 @@ body{
 			padding: 13px 15px 12px 15px;
 		}
 
-		#more-li{
-			border-bottom: 5px solid black;
-		}
-
 		#down-arrow{
 			display: inline-block;
 		    margin-left:10px;
@@ -208,4 +204,47 @@ body{
 		#lower-nav li:hover{
 			padding-bottom: 5px;
 			border-bottom: 5px solid white;
+		}
+
+
+		#news-div{
+			height: 2000px;
+			background-color: #FFFFFF;
+		}
+
+		#services{
+			height: 120px;
+			background-color: #2F2F2F;
+			border-bottom: 1px solid #949494;
+
+		}
+
+		#footer{
+			height: 280px;
+			background-color: #4C4C4C;
+
+
+		}
+
+		#explore-label{
+			font-size: 1.2em;
+		}
+
+		#footer-div{
+			float: left;
+			color: white;
+		}
+
+		#explore-list ul{
+			float: left;
+		}
+
+		#explore-list li{
+			list-style: none;			
+			color: white;
+			font-weight: bold;
+			font-size: .8em;
+			padding-bottom: 10px;
+			padding-right: 100px;
+			margin-left: -30px;
 		}
