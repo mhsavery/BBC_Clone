@@ -1,187 +1,211 @@
 body{
-	margin: 0;
-	font-family: Arial, Helvetica, freesans, sans-serif;
-}
-		
-#top-bar{
-	background-color: white;
-	height: 40px;
-	width: 100%;
-	border-bottom: 1px solid #CCCCCC;
-	color: black;
-}
+			margin: 0;
+			font-family: Arial, Helvetica, freesans, sans-serif;
+		}
 
-#logo-div{
-	padding: 8px 9px 5px 3px;
-	float: left;
-	border-right: 1px solid #CCCCCC;
-}
+		#top-bar{
+			background-color: white;
+			height: 40px;
+			width: 100%;
+			border-bottom: 1px solid #CCCCCC;
+			color: black;
 
-#signin-div{
-	float: left;
-	padding: 8px 85px 12px 16px;
-	border-right: 1px solid #CCCCCC;
-	font-weight: bold;
-	font-size: 0.8em;
-}
+		}
 
-#topmenu-div{
-	float: left;
-}
+		#logo-div{
+			padding: 8px 9px 5px 3px;
+			float: left;
+			border-right: 1px solid #CCCCCC;
+		}
 
-#topmenu-div ul{
-	margin: 0;
-	padding: 0;
-}
+		#signin-div{
+			float: left;
+			padding: 8px 85px 12px 16px;
+			border-right: 1px solid #CCCCCC;
+			font-weight: bold;
+			font-size: 0.8em;
 
-#topmenu-div li{
-	float: left;
-	list-style: none;
-	font-weight: bold;
-	font-size: 0.8em;
-	border-right: 1px solid #CCCCCC;			
-	padding: 13px 15px 12px 15px;
-}
+		}
 
-#signin-div img{
-	position: relative;
-	top: 5px;
-}
+		#topmenu-div{
+			float: left;
+		}
 
-#search-div {
-	float: left;
-	padding: 8px 0 0 15px;
-}
+		#topmenu-div ul{
+			margin: 0;
+			padding: 0;
+		}
 
-#search-div input{
-	height: 20px;
-	background-color: #E4E4E4;
-	color: black;
-	border: none;
-	padding: 3px 10px 3px 3px;
-	font-weight: bold;
-	background-image: url("img/bbc-search.png");
-	background-repeat: no-repeat;
-	background-position: right center;
-}
+		#topmenu-div li{
+			float: left;
+			list-style: none;
+			font-weight: bold;
+			font-size: 0.8em;
+			border-right: 1px solid #CCCCCC;			
+			padding: 13px 15px 12px 15px;
+		}
 
-::-webkit-input-placeholder {
- 	color: black;
-}
+		#more-li{
+			border-bottom: 5px solid black;
+		}
 
-:-moz-placeholder { 
-   color: black;  
-}
+		#down-arrow{
+			display: inline-block;
+		    margin-left:10px;
+		    margin-right:auto;
+		    width:0;
+		    height:0;
+		    border-left:3px solid transparent;
+		    border-right:3px solid transparent;
+		    border-top:3px solid #000000;
+		}
 
-::-moz-placeholder { 
-   color: black;  
-}
+		#signin-div img{
+			position: relative;
+			top: 5px;
+		}
 
-:-ms-input-placeholder {  
-   color: black;  
-}
+		#search-div {
+			float: left;
+			padding: 8px 0 0 15px;
+		}
 
-#more-bar{
-	background-color: white;
-	height: 100px;
-	width: 100%;
-}
+		#search-div input{
+			height: 20px;
+			background-color: #E4E4E4;
+			color: black;
+			border: none;
+			padding: 3px 10px 3px 3px;
+			font-weight: bold;
+			background-image: url("img/bbc-search.png");
+			background-repeat: no-repeat;
+			background-position: right center;
+		}
 
-#more-menu-div{
-	
-}
+		::-webkit-input-placeholder {
+   			color: black;
+		}
 
-#more-label{
-	float: left;
-}
+		:-moz-placeholder { 
+		   color: black;  
+		}
 
-#more-list{
-	float: left;
-	padding-left: 55px;
-}
+		::-moz-placeholder { 
+		   color: black;  
+		}
 
-#more-list ul{
-	float: left;
-	padding: 20px;
-	margin-top: -20px;
-}
+		:-ms-input-placeholder {  
+		   color: black;  
+		}
 
-#more-list li{
-	list-style: none;
-	font-weight: bold;
-	padding: 20px 50px 0 25px;
-	font-size: 0.8em;
-}
+		#more-bar{
+			background-color: white;
+			height: 100px;
+			width: 100%;
 
-#label-bar{
-	background-color: #CC0101;
-	height: 55px;
-	width: 100%;
-	border-bottom: 1px solid #DA4c4c;
-}
+		}
 
-#label-center{
-	height: 55px;
-	width: 1000px;
-	margin: 0 auto;
-}		
+		#more-menu-div{
 
-#news-label-div{
-	color: white;
-}
+		}
 
-#lower-bar{
-	background-color: #CC0101;
-	height: 35px;
-	width: 100%;
-}
+		#more-label{
+			float: left;
+		}
 
-.fixed-width{
-	width: 1000px;
-	margin: 0 auto;
-}
+		#more-list{
+			float: left;
+			padding-left: 55px;
+		}
 
-a{
-	text-decoration: none;
-	color: black;
-}
+		#more-list ul{
+			float: left;
+			padding: 20px;
 
-#more-title{
-	font-family: "Gill Sans","Gill Sans MT",Arial,sans-serif;
-	font-size: 1.75em;			
-	font-weight: normal;
-	margin-top: 5px;
-}
+			margin-top: -20px;
+		}
 
-#news-title{
-	font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
-	font-size: 2.7em;			
-	font-weight: normal;
-	margin-bottom: 20px;
-}
+		#more-list li{
+			list-style: none;
+			font-weight: bold;
+			padding: 20px 50px 0 25px;
+			font-size: 0.8em;
+		}
 
-#lower-nav{
-	float: left;
-}
+		#label-bar{
+			background-color: #BB1919;
+			height: 55px;
+			width: 100%;
 
-#lower-nav ul{
-	margin: 0;
-	padding: 0;
-}
+		}
 
-#lower-nav li{
-	font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
-	float: left;
-	list-style: none;
-	font-size: 14px;
-	color: white;
-	border-right: 1px solid #CCCCCC;
-	margin-top: 10px;
-	padding-right: 10px;
-	padding-left: 10px;
-}
+		#label-center{
+			height: 55px;
+			width: 1000px;
+			margin: 0 auto;
+		}
 
-#lower-nav li:hover{
-	padding-bottom: 5px;
-	border-bottom: 5px solid white;
-}
+		#news-label-div{
+			color: white;
+		}
+
+		#lower-bar{
+			background-color: #A91717;
+			height: 35px;
+			width: 100%;
+
+		}
+
+		.fixed-width{
+			width: 1000px;
+			margin: 0 auto;
+		}
+
+		a{
+			text-decoration: none;
+			color: black;
+		}
+
+		#more-title{
+			font-family: "Gill Sans","Gill Sans MT",Arial,sans-serif;
+			font-size: 1.75em;			
+			font-weight: normal;
+			margin-top: 5px;
+		}
+
+		#news-label-div{
+			margin-top: 25px;
+		}
+
+		#news-title img{
+			width: 122px;
+			margin-right: 6px;
+		}
+
+
+		#lower-nav{
+			float: left;
+		}
+
+		#lower-nav ul{
+			margin: 0;
+			padding: 0;
+		}
+
+		#lower-nav li{
+			font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
+			float: left;
+			list-style: none;
+			font-size: 14px;
+			color: white;
+			border-top: 1px solid #A91717;
+			border-right: 0px solid #E7E7E7;
+			margin-top: 10px;
+			padding-right: 10px;
+			padding-left: 10px;
+		}
+
+		#lower-nav li:hover{
+			padding-bottom: 5px;
+			border-bottom: 5px solid white;
+		}
