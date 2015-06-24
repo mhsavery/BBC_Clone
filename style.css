@@ -6,8 +6,7 @@ body{
 		#top-bar{
 			background-color: white;
 			height: 40px;
-			width: 100%;
-			border-bottom: 1px solid #CCCCCC;
+			width: 100%;			
 			color: black;
 
 		}
@@ -18,6 +17,10 @@ body{
 			border-right: 1px solid #CCCCCC;
 		}
 
+		#top-div{
+			margin-left: 10px;
+		}
+
 		#signin-div{
 			float: left;
 			padding: 8px 85px 12px 16px;
@@ -26,7 +29,6 @@ body{
 			font-size: 0.8em;
 
 		}
-
 		#topmenu-div{
 			float: left;
 		}
@@ -60,6 +62,7 @@ body{
 			position: relative;
 			top: 5px;
 		}
+		
 
 		#search-div {
 			float: left;
@@ -68,6 +71,7 @@ body{
 
 		#search-div input{
 			height: 20px;
+			width: 190px;
 			background-color: #E4E4E4;
 			color: black;
 			border: none;
@@ -98,11 +102,12 @@ body{
 			background-color: white;
 			height: 100px;
 			width: 100%;
+			border-top: 1px solid #CCCCCC;
 
 		}
 
 		#more-menu-div{
-
+			margin-left: 10px;
 		}
 
 		#more-label{
@@ -111,7 +116,7 @@ body{
 
 		#more-list{
 			float: left;
-			padding-left: 55px;
+			padding-left: 50px;
 		}
 
 		#more-list ul{
@@ -142,6 +147,7 @@ body{
 		}
 
 		#news-label-div{
+			margin-left: 10px;
 			color: white;
 		}
 
@@ -188,6 +194,7 @@ body{
 			padding: 0;
 		}
 
+
 		#lower-nav li{
 			font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
 			float: left;
@@ -195,15 +202,24 @@ body{
 			font-size: 14px;
 			color: white;
 			border-top: 1px solid #A91717;
-			border-right: 0px solid #E7E7E7;
 			margin-top: 10px;
-			padding-right: 10px;
+			padding-right: 15px;
 			padding-left: 10px;
+		}
+
+		#lower-home{
+			padding-bottom: 5px;
+			border-bottom: 5px solid white;
 		}
 
 		#lower-nav li:hover{
 			padding-bottom: 5px;
 			border-bottom: 5px solid white;
+		}
+
+		#ad-section{
+			height: 125px;
+			background-color: #E7E7E7;
 		}
 
 
@@ -216,14 +232,11 @@ body{
 			height: 120px;
 			background-color: #2F2F2F;
 			border-bottom: 1px solid #949494;
-
 		}
 
 		#footer{
 			height: 280px;
 			background-color: #4C4C4C;
-
-
 		}
 
 		#explore-label{
