@@ -8,7 +8,6 @@ body{
 			height: 40px;
 			width: 100%;			
 			color: black;
-
 		}
 
 		#logo-div{
@@ -27,8 +26,8 @@ body{
 			border-right: 1px solid #CCCCCC;
 			font-weight: bold;
 			font-size: 0.8em;
-
 		}
+
 		#topmenu-div{
 			float: left;
 		}
@@ -82,6 +81,35 @@ body{
 			background-position: right center;
 		}
 
+		#red:hover{
+
+		}
+
+		#yellow:hover{
+
+
+		}
+
+		#light-blue:hover{
+
+
+		}
+
+		.dark-blue:hover{
+
+
+		}
+
+		.hover-black:hover{
+
+
+		}
+
+		#more-li{
+
+
+		}
+
 		::-webkit-input-placeholder {
    			color: black;
 		}
@@ -103,7 +131,6 @@ body{
 			height: 100px;
 			width: 100%;
 			border-top: 1px solid #CCCCCC;
-
 		}
 
 		#more-menu-div{
@@ -122,7 +149,6 @@ body{
 		#more-list ul{
 			float: left;
 			padding: 20px;
-
 			margin-top: -20px;
 		}
 
@@ -137,7 +163,6 @@ body{
 			background-color: #BB1919;
 			height: 55px;
 			width: 100%;
-
 		}
 
 		#label-center{
@@ -155,7 +180,6 @@ body{
 			background-color: #A91717;
 			height: 35px;
 			width: 100%;
-
 		}
 
 		.fixed-width{
@@ -200,11 +224,14 @@ body{
 			float: left;
 			list-style: none;
 			font-size: 14px;
-			color: white;
 			border-top: 1px solid #A91717;
 			margin-top: 10px;
 			padding-right: 15px;
 			padding-left: 10px;
+		}
+
+		#lower-nav a{
+			color: white;
 		}
 
 		#lower-home{
@@ -231,7 +258,6 @@ body{
 		#services{
 			height: 120px;
 			background-color: #2F2F2F;
-			border-bottom: 1px solid #949494;
 		}
 
 		#footer{
@@ -243,21 +269,61 @@ body{
 			font-size: 1.2em;
 		}
 
-		#footer-div{
-			float: left;
+		#services-div{
 			color: white;
+			font-weight: normal;
+		}
+
+		#services-list li{
+			list-style: none;
+			display: inline;
+		}
+
+		#services-list a{
+			color: white;
+			font-weight: bold;
+			padding-right: 60px;
+			font-size: 0.9em;
+		}
+
+		#footer-div{
+			color: white;
+		}
+
+		#footer{
+			border-top: 1px solid white;
+			margin-top: -10px;
 		}
 
 		#explore-list ul{
 			float: left;
+			margin: 0;	
+			padding: 0;
 		}
 
 		#explore-list li{
-			list-style: none;			
+			list-style: none;
 			color: white;
 			font-weight: bold;
-			font-size: .8em;
+			font-size: 0.8em;
+			padding-right: 110px;
 			padding-bottom: 10px;
-			padding-right: 100px;
-			margin-left: -30px;
+		}
+
+		#lower-footer{
+		}
+
+		#lower-footer ul{
+			margin-left: -25px;
+		}
+
+		#lower-footer li {
+			list-style: none;
+			display: inline;
+		}
+
+		#lower-footer a{
+			color: white;
+			font-size: 0.8em;
+			padding-right: 20px;
 		}
