@@ -81,31 +81,31 @@ body{
 			background-position: right center;
 		}
 
-		#red:hover{
+		#news-hover-effect:hover{
 
 		}
 
-		#yellow:hover{
-
-
-		}
-
-		#light-blue:hover{
+		#sports-hover-effect:hover{
 
 
 		}
 
-		.dark-blue:hover{
+		#weather-hover-effect:hover{
 
 
 		}
 
-		.hover-black:hover{
+		.blue-hover-effect:hover{
 
 
 		}
 
-		#more-li{
+		.black-hover-effect:hover{
+
+
+		}
+
+		#more-bar-button{
 
 
 		}
@@ -239,16 +239,41 @@ body{
 			border-bottom: 5px solid white;
 		}
 
-		#lower-nav li:hover{
+		.lower-hover:hover{
 			padding-bottom: 5px;
 			border-bottom: 5px solid white;
+		}
+
+		#lower-more-hover:hover{
+			background-color: black;
+		}
+
+		#lower-nav-hidden{
+			height: 125px;
+			background-color: black;
+			position: absolute;
+			width: 100%;
+		}
+
+		#hidden-div ul{
+			padding-right: 100px;
+			float: left;
+		}
+
+		#hidden-div li{
+			padding-bottom: 20px;
+			color: white;
+			list-style: none;
+		}
+
+		#hidden-div a{
+			color: white;
 		}
 
 		#ad-section{
 			height: 125px;
 			background-color: #E7E7E7;
 		}
-
 
 		#news-div{
 			height: 2000px;
