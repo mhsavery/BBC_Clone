@@ -1,0 +1,352 @@
+body{
+	margin: 0;
+	font-family: Arial, Helvetica, freesans, sans-serif;
+}
+
+#top-bar{
+	background-color: white;
+	height: 40px;
+	width: 100%;			
+	color: black;
+}
+
+#logo-div{
+	padding: 8px 9px 5px 3px;
+	float: left;
+	border-right: 1px solid #CCCCCC;
+}
+
+#top-div{
+	margin-left: 10px;
+}
+
+#signin-div{
+	float: left;
+	padding: 8px 85px 12px 16px;
+	border-right: 1px solid #CCCCCC;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+#topmenu-div{
+	float: left;
+}
+
+#topmenu-div ul{
+	margin: 0;
+	padding: 0;
+}
+
+#topmenu-div li{
+	float: left;
+	list-style: none;
+	font-weight: bold;
+	font-size: 0.8em;
+	border-right: 1px solid #CCCCCC;			
+	padding: 13px 15px 12px 15px;
+}
+
+#down-arrow{
+	display: inline-block;
+    margin-left:10px;
+    margin-right:auto;
+    width:0;
+    height:0;
+    border-left:3px solid transparent;
+    border-right:3px solid transparent;
+    border-top:3px solid #000000;
+}
+
+#signin-div img{
+	position: relative;
+	top: 5px;
+}
+
+#search-div {
+	float: left;
+	padding: 8px 0 0 15px;
+}
+
+#search-div input{
+	height: 20px;
+	width: 190px;
+	background-color: #E4E4E4;
+	color: black;
+	border: none;
+	padding: 3px 10px 3px 3px;
+	font-weight: bold;
+	background-image: url("img/bbc-search.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+#news-hover-effect:hover{
+
+}
+
+#sports-hover-effect:hover{
+
+
+}
+
+#weather-hover-effect:hover{
+
+
+}
+
+.blue-hover-effect:hover{
+
+
+}
+
+.black-hover-effect:hover{
+
+
+}
+
+#more-bar-button{
+
+
+}
+
+::-webkit-input-placeholder {
+	color: black;
+}
+
+:-moz-placeholder { 
+   color: black;  
+}
+
+::-moz-placeholder { 
+   color: black;  
+}
+
+:-ms-input-placeholder {  
+   color: black;  
+}
+
+#more-bar{
+	background-color: white;
+	height: 100px;
+	width: 100%;
+	border-top: 1px solid #CCCCCC;
+}
+
+#more-menu-div{
+	margin-left: 10px;
+}
+
+#more-label{
+	float: left;
+}
+
+#more-list{
+	float: left;
+	padding-left: 50px;
+}
+
+#more-list ul{
+	float: left;
+	padding: 20px;
+	margin-top: -20px;
+}
+
+#more-list li{
+	list-style: none;
+	font-weight: bold;
+	padding: 20px 50px 0 25px;
+	font-size: 0.8em;
+}
+
+#label-bar{
+	background-color: #BB1919;
+	height: 55px;
+	width: 100%;
+}
+
+#label-center{
+	height: 55px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#news-label-div{
+	margin-left: 10px;
+	color: white;
+}
+
+#lower-bar{
+	background-color: #A91717;
+	height: 35px;
+	width: 100%;
+}
+
+.fixed-width{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#more-title{
+	font-family: "Gill Sans","Gill Sans MT",Arial,sans-serif;
+	font-size: 1.75em;			
+	font-weight: normal;
+	margin-top: 5px;
+}
+	
+#news-label-div{
+	margin-top: 25px;
+}
+
+#news-title img{
+	width: 122px;
+	margin-right: 6px;
+}
+
+#lower-nav{
+	float: left;
+}
+
+#lower-nav ul{
+	margin: 0;
+	padding: 0;
+}
+		
+#lower-nav li{
+	font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
+	float: left;
+	list-style: none;
+	font-size: 14px;
+	border-top: 1px solid #A91717;
+	margin-top: 10px;
+	padding-right: 15px;
+	padding-left: 10px;
+}
+
+#lower-nav a{
+	color: white;
+}
+
+#lower-home{
+	padding-bottom: 5px;
+	border-bottom: 5px solid white;
+}
+
+.lower-hover:hover{
+	padding-bottom: 5px;
+	border-bottom: 5px solid white;
+}
+
+#lower-more-hover:hover{
+	background-color: black;
+}
+
+#lower-nav-hidden{
+	height: 125px;
+	background-color: black;
+	position: absolute;
+	width: 100%;
+}
+
+#hidden-div ul{
+	padding-right: 100px;
+	float: left;
+}
+
+#hidden-div li{
+	padding-bottom: 20px;
+	color: white;
+	list-style: none;
+}
+
+#hidden-div a{
+	color: white;
+}
+
+#ad-section{
+	height: 125px;
+	background-color: #E7E7E7;
+}
+
+#news-div{
+	height: 2000px;
+	background-color: #FFFFFF;
+}
+
+#services{
+	height: 120px;
+	background-color: #2F2F2F;
+}
+
+#footer{
+	height: 280px;
+	background-color: #4C4C4C;
+}
+
+#explore-label{
+	font-size: 1.2em;
+}
+
+#services-div{
+	color: white;
+	font-weight: normal;
+}
+
+#services-list li{
+	list-style: none;
+	display: inline;
+}
+
+#services-list a{
+	color: white;
+	font-weight: bold;
+	padding-right: 60px;
+	font-size: 0.9em;
+}
+
+#footer-div{
+	color: white;
+}
+
+#footer{
+	border-top: 1px solid white;
+	margin-top: -10px;
+}
+
+#explore-list ul{
+	float: left;
+	margin: 0;	
+	padding: 0;
+}
+
+#explore-list li{
+	list-style: none;
+	color: white;
+	font-weight: bold;
+	font-size: 0.8em;
+	padding-right: 110px;
+	padding-bottom: 10px;
+}
+
+#lower-footer{
+
+}
+
+#lower-footer ul{
+	margin-left: -25px;
+}
+
+#lower-footer li {
+	list-style: none;
+	display: inline;
+}
+
+#lower-footer a{
+	color: white;
+	font-size: 0.8em;
+	padding-right: 20px;
+}
