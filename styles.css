@@ -241,7 +241,7 @@ a{
 	border-bottom: 5px solid white;
 }
 
-#lower-more-hover:hover{
+#hidden-nav-bar:hover{
 	background-color: black;
 }
 
@@ -317,19 +317,30 @@ a{
 	margin-top: -10px;
 }
 
+#explore-list{
+	border-bottom: 1px solid white;
+}
+
 #explore-list ul{
-	float: left;
+	display: inline-table;
 	margin: 0;	
 	padding: 0;
 }
 
 #explore-list li{
 	list-style: none;
-	color: white;
 	font-weight: bold;
 	font-size: 0.8em;
 	padding-right: 110px;
-	padding-bottom: 10px;
+	padding-bottom: 10px;	
+}
+
+#explore-list a{
+	color: white;
+}
+
+.explore-list-border{
+	border-left: 1px solid white;
 }
 
 #lower-footer{
@@ -337,16 +348,17 @@ a{
 }
 
 #lower-footer ul{
-	margin-left: -25px;
+	margin-left: -40px;
 }
 
 #lower-footer li {
 	list-style: none;
 	display: inline;
+	padding-right: 25px;
+
 }
 
 #lower-footer a{
 	color: white;
-	font-size: 0.8em;
-	padding-right: 20px;
+	font-size: 0.75em;
 }
